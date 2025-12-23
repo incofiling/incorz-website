@@ -1,11 +1,25 @@
 "use client"
 import { ArrowRight, Star } from "lucide-react"
+import Image from "next/image"
 
 export default function HeroSection() {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-[#310971] to-[#690fff] mt-16 flex items-center">
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-        
+    <div className="relative min-h-screen bg-gradient-to-r from-[#310971] to-[#690fff] mt-16 flex items-center overflow-hidden">
+      <div className="absolute inset-0 pointer-events-none">
+        <Image
+          src="/images/hero-texture.png"
+          alt=""
+          fill
+          className="object-cover opacity-60"
+          style={{
+            maskImage: "linear-gradient(to right, transparent 0%, transparent 40%, black 70%, black 100%)",
+            WebkitMaskImage: "linear-gradient(to right, transparent 0%, transparent 40%, black 70%, black 100%)",
+          }}
+          priority
+        />
+      </div>
+
+      <main className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         {/* Trustpilot Rating */}
         <div className="flex justify-center pt-6 pb-4">
           <div className="flex items-center gap-2 bg-gray-50 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full border mt-8 sm:mt-16">
@@ -20,24 +34,24 @@ export default function HeroSection() {
         {/* Heading + Subtitle */}
         <div className="text-center py-10 sm:py-16">
           <h1 className="text-6xl md:text-6xl font-bold text-white mb-6 sm:mb-8 leading-tight tracking-tight break-words">
-            Start Your U.S Business 🚀 <br className="hidden sm:block"/> 
+            Start Your U.S Business 🚀 <br className="hidden sm:block" />
             Fast & Fully Online
           </h1>
 
           <p className="text-lg md:text-xl text-white mb-8 sm:mb-12 max-w-3xl mx-auto leading-relaxed">
-            Form your LLC, get your EIN, open a business bank account & stay compliant – 
-            all in one simple package. Starting at $249 + state fees.
+            Form your LLC, get your EIN, open a business bank account & stay compliant – all in one simple package.
+            Starting at $249 + state fees.
           </p>
 
           {/* CTA Button */}
           <div className="flex justify-center items-center">
             <button
               onClick={() => {
-    const contactSection = document.getElementById("contact")
-    if (contactSection) {
-      contactSection.scrollIntoView({ behavior: "smooth" }) // smooth scroll
-    }
-  }}
+  const phoneNumber = "923092935757"; // Pakistan country code +92
+  const message = encodeURIComponent("Hello!"); // optional default message
+  window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
+}}
+
               className="flex items-center justify-center gap-2 text-base md:text-lg 
                          text-[#5f00ff] bg-white rounded-full px-6 py-3 font-medium shadow-md hover:shadow-lg transition"
             >
@@ -65,7 +79,6 @@ export default function HeroSection() {
             </div>
           </div>
         </div>
-
       </main>
     </div>
   )

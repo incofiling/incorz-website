@@ -7,7 +7,7 @@ export default function PricingSection() {
         {/* Header */}
         <h2 className="text-white text-4xl md:text-5xl font-bold text-center mb-4">One price, No Surprises</h2>
         <p className="text-white text-center max-w-3xl mx-auto mb-16">
-          StartGlobal offers everything on a single price. No upselling, no hidden charges, no payment processing
+          Inco Filing offers everything on a single price. No upselling, no hidden charges, no payment processing
           charges, no taxes added at the end. You pay what you see here and not a dollar more.
         </p>
 
@@ -15,7 +15,7 @@ export default function PricingSection() {
         <div className="bg-[#3d1a80] rounded-3xl p-8 md:p-12 flex flex-col md:flex-row gap-8">
           {/* Left Column */}
           <div className="md:w-1/2">
-            <h3 className="text-white text-3xl md:text-4xl font-bold mb-4">StartGlobal All-Inclusive Pricing</h3>
+            <h3 className="text-white text-3xl md:text-4xl font-bold mb-4">Inco Filing All-Inclusive Pricing</h3>
             <p className="text-white mb-8">
               Our price includes all processing charges, document preparations, digital signatures and everything in
               between.
@@ -56,18 +56,32 @@ export default function PricingSection() {
               <p className="text-white text-center text-xl mb-8">All-in-one price</p>
               <h3 className="text-white text-center text-7xl md:text-8xl font-bold mb-8">$599</h3>
               <div className="flex justify-center">
-                <button className="bg-white text-[#320e6f] font-medium py-4 px-6 rounded-full flex items-center gap-2 hover:bg-opacity-90 transition-all">
-                  Start your LLC in 4 Weeks
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M7 17L17 7M17 7H7M17 7V17"
-                      stroke="#320e6f"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </button>
+              <button
+  onClick={() => {
+    const phoneNumber = "923092935757"; // Pakistan country code +92
+    const message = encodeURIComponent("Hello!"); // optional default message
+    window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
+  }}
+  className="bg-white text-[#320e6f] font-medium py-4 px-6 rounded-full flex items-center gap-2 hover:bg-opacity-90 transition-all"
+>
+  Start your LLC in 4 Weeks
+  <svg
+    width="20"
+    height="20"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M7 17L17 7M17 7H7M17 7V17"
+      stroke="#320e6f"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+</button>
+
               </div>
             </div>
           </div>

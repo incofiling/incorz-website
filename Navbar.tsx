@@ -41,14 +41,16 @@ export default function Navbar() {
               +1 (786) 574-9305
             </a>
 
-            <a
-              href="#contact"
-              rel="noopener noreferrer"
-              className="hidden xl:flex items-center justify-center gap-2 text-sm sm:text-base text-[#5f00ff] bg-white rounded-full px-6 py-3"
-            >
-              <span>Start Your Business</span>
-              <ArrowRight className="w-4 h-4" />
-            </a>
+           <a
+  href={`https://wa.me/923092935757?text=${encodeURIComponent("Hello!")}`}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hidden xl:flex items-center justify-center gap-2 text-sm sm:text-base text-[#5f00ff] bg-white rounded-full px-6 py-3"
+>
+  <span>Start Your Business</span>
+  <ArrowRight className="w-4 h-4" />
+</a>
+
 
             {/* Hamburger */}
             <button
@@ -113,14 +115,16 @@ export default function Navbar() {
               </a>
 
               <a
-                href="#contact"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2 mt-3 text-sm text-[#5f00ff] bg-white rounded-full px-6 py-3"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                <span>Start Your Business</span>
-                <ArrowRight className="w-4 h-4" />
-              </a>
+  href={`https://wa.me/923092935757?text=${encodeURIComponent("Hello!")}`}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center justify-center gap-2 mt-3 text-sm text-[#5f00ff] bg-white rounded-full px-6 py-3"
+  onClick={() => setIsMenuOpen(false)}
+>
+  <span>Start Your Business</span>
+  <ArrowRight className="w-4 h-4" />
+</a>
+
             </nav>
           </div>
         </div>

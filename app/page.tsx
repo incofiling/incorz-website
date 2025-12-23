@@ -4,11 +4,10 @@ import HeroSection from "@/hero-section"
 import BrandsSection from "@/brands-section"
 import LLCFormationSection from "@/llc-formation-section"
 import Navbar from "@/Navbar"
-import PricingSection from "@/Pricing-Section"
+import PricingSection from "@/pricing-section"
 import ServicesGrid from "@/Services"
 import Footer from "@/footer"
-import WhyIncorz from "@/Why-Incorz"
-import ContactForm from "@/contact-form"
+import WhyIncoFiling from "@/why-incorz"
 import AnimatedSection from "@/components/animated-section"
 import ScrollToTop from "@/components/scroll-to-top"
 import TrustedWorldwideSection from "@/trusted-worldwide-section"
@@ -35,16 +34,14 @@ export default function Home() {
       </AnimatedSection>
 
       <AnimatedSection animation="zoom-in" delay={100}>
-        <WhyIncorz />
+        <WhyIncoFiling />
       </AnimatedSection>
 
       <AnimatedSection animation="fade-up" delay={200}>
         <TrustedWorldwideSection />
       </AnimatedSection>
 
-      <AnimatedSection animation="fade-up" delay={200}>
-        <ContactForm />
-      </AnimatedSection>
+ 
 
       <Footer />
 

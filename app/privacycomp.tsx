@@ -7,7 +7,7 @@ export default function Privacycomp() {
         {/* Header */}
           <h1 className="text-4xl sm:text-5xl font-bold mb-2">Privacy Policy</h1>
           <p className="text-md sm:text-lg font-light max-w-2xl mx-auto">
-            Learn how incorz LLC collects, uses, and protects your personal information.
+            Learn how Inco Filing LLC collects, uses, and protects your personal information.
           </p>
 
         {/* Content */}
@@ -16,7 +16,7 @@ export default function Privacycomp() {
           <div className="space-y-4">
             <h2 className="text-2xl font-semibold text-[#310971]">Introduction</h2>
             <p className="text-gray-700 leading-relaxed">
-              This Privacy Policy describes how incorz LLC and its affiliates (collectively "we, our, us") collect, use, share, protect, or otherwise process your information/personal data through our website <a href="https://www.incorz.com" className="text-purple-600 underline hover:text-purple-800">www.incorz.com</a>. You may browse certain sections without registering. Your personal data will primarily be stored and processed in India. By using our platform, you agree to the terms of this Privacy Policy, Terms of Use, and applicable laws.
+              This Privacy Policy describes how Inco Filing LLC and its affiliates (collectively "we, our, us") collect, use, share, protect, or otherwise process your information/personal data through our website <a href="https://www.incofiling.com" className="text-purple-600 underline hover:text-purple-800">www.Inco Filing.com</a>. You may browse certain sections without registering. Your personal data will primarily be stored and processed in India. By using our platform, you agree to the terms of this Privacy Policy, Terms of Use, and applicable laws.
             </p>
           </div>
 

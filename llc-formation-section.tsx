@@ -6,7 +6,7 @@ export default function LLCFormationSection() {
       <div className="container mx-auto px-4">
         {/* Subtitle */}
         <p className="text-center text-purple-600 mb-2 text-sm sm:text-base">
-          Your time is money – Incorz manages all your paperwork.
+          Your time is money – Inco Filing manages all your paperwork.
         </p>
 
         {/* Main heading */}
@@ -26,7 +26,7 @@ export default function LLCFormationSection() {
               LLC FORMATION
             </h3>
             <p className="text-gray-600 mb-8">
-              Incorz handles the preparation and filing of your LLC with the State. This process includes submitting the necessary forms and paying state fees, ensuring your company is officially registered.
+              Inco Filing handles the preparation and filing of your LLC with the State. This process includes submitting the necessary forms and paying state fees, ensuring your company is officially registered.
             </p>
             <div className="flex items-center text-purple-600 mt-auto">
               <CheckCircle2 className="mr-2" size={20} />

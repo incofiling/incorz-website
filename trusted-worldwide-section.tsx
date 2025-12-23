@@ -37,7 +37,7 @@ export default function TrustedWorldwideSection() {
       name: "Priya Nair",
       title: "E-Commerce",
       content:
-        "Affordable, fast, and reliable—Incorz helped launch my e-commerce brand in record time.",
+        "Affordable, fast, and reliable—Inco Filing helped launch my e-commerce brand in record time.",
     },
     {
       id: 2,
@@ -51,14 +51,14 @@ export default function TrustedWorldwideSection() {
       name: "Sneha Patel",
       title: "Fashion Retail",
       content:
-        "Thanks to Incorz, I could focus on my business while they handled all compliance smoothly.",
+        "Thanks to Inco Filing, I could focus on my business while they handled all compliance smoothly.",
     },
     {
       id: 4,
       name: "Vikram Iyer",
       title: "Healthcare",
       content:
-        "Professional, transparent, and supportive—Incorz is the reason my healthcare startup could go global.",
+        "Professional, transparent, and supportive—Inco Filing is the reason my healthcare startup could go global.",
     },
   ]
 
@@ -108,7 +108,7 @@ Real success stories from small business owners to enterprises! You can find our
           <div className="bg-gradient-to-b from-[#320E6F] to-[#6843A7] rounded-2xl flex flex-col justify-between overflow-hidden shadow-lg w-full max-w-[386px] lg:max-w-none lg:w-[386px] h-auto sm:h-[400px] lg:h-[467px]">
             <div className="p-6 sm:p-8 flex-grow flex items-center">
               <p className="text-white text-base sm:text-lg">
-               Incorz made setting up my IT consultancy seamless. Their expertise saved me weeks of confusion and paperwork.
+               Inco Filing made setting up my IT consultancy seamless. Their expertise saved me weeks of confusion and paperwork.
               </p>
             </div>
 

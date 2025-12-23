@@ -36,19 +36,19 @@ export default function ServicesGrid() {
       icon: <FileCheck className="w-5 h-5 sm:w-6 sm:h-6 text-[#5f00ff]" />,
       title: "ITIN",
       description:
-        "Get your ITIN easily with Incorz, partnered with an IRS-recognized CAA, to open PayPal account and file taxes.",
+        "Get your ITIN easily with Inco Filing, partnered with an IRS-recognized CAA, to open PayPal account and file taxes.",
     },
     {
       icon: <Receipt className="w-5 h-5 sm:w-6 sm:h-6 text-[#5f00ff]" />,
       title: "Federal Tax Filing",
       description:
-        "File your personal and business tax returns easily with Incorz expert guidance and dedicated support team.",
+        "File your personal and business tax returns easily with Inco Filing expert guidance and dedicated support team.",
     },
     {
       icon: <HandCoins className="w-5 h-5 sm:w-6 sm:h-6 text-[#5f00ff]" />,
       title: "State Tax Filing",
       description:
-        "File your annual reports and pay state taxes with Incorz user-friendly interface to remain fully compliant.",
+        "File your annual reports and pay state taxes with Inco Filing user-friendly interface to remain fully compliant.",
     },
     {
       icon: <ArrowUpCircle className="w-5 h-5 sm:w-6 sm:h-6 text-[#5f00ff]" />,
@@ -60,7 +60,7 @@ export default function ServicesGrid() {
       icon: <Lock className="w-5 h-5 sm:w-6 sm:h-6 text-[#5f00ff]" />,
       title: "Trademark",
       description:
-        "Protect your brand identity with Incorz trademark services, ensuring a solid foundation for your business.",
+        "Protect your brand identity with Inco Filing trademark services, ensuring a solid foundation for your business.",
     },
     {
       icon: <ShoppingBag className="w-5 h-5 sm:w-6 sm:h-6 text-[#5f00ff]" />,
